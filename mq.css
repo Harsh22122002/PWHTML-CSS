@@ -1,0 +1,28 @@
+body{
+    background-color: red;
+}
+div{
+    font-size: x-large;
+    text-align: center
+}
+
+div::after{
+    content: 
+    'welcome to the  demo';
+}
+@media(min-width:900px){
+    body{background-color:aquamarine ;
+    }
+    div::after{
+        content:'woah  its working'
+    }
+}
+@media(max-width:450px){
+    body{
+        background-color: green;
+    }
+    div::after{
+        content: 'Bhai besties banao';
+    }
+    
+}
